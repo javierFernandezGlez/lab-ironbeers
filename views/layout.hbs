@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        nav {
+            display:flex;
+            justify-content: flex-start;
+            background-color: #2081c3;
+            height: 100px;
+            align-items: center;
+        }
+
+        nav a {
+            margin-left: 10px;
+            color: #f7f9f9;
+        }
+
+        #beer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        #links {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100px;
+        }
+
+        #links a {
+            padding: 15px;
+            margin: 10px;
+            background-color: #2081c3;
+            color: #f7f9f9;
+            border-radius: 5%;
+        }
+        #beers {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #random {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            margin-left: 250px;
+            margin-right: 250px;
+        }
+        #inside-random {
+            width: 300px;
+        }
+        #single-beer {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            margin: 40px;
+        }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 40px;
+            background-color: #0a2c42;;
+            color: white;
+            text-align: left;
+        }
+    </style>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/beers">Beers</a>
+        <a href="/random-beer">Random Beer</a>
+    </nav>
+
+    <footer>
+        Developed by IronHack
+    </footer>
+    
+    
+    {{{body}}}
+</body>
+</html>
